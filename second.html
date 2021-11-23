@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+          <meta charset="UTF-8">
+          <title>Signup Page</title>
+          <link rel="stylesheet" href="signup.css">           
+</head>
+<body>
+          <form>
+                 <h1>SignUp</h1>
+                 <input type="text" name="" placeholder="Username" pattern="[a-z]{5}" id="one" required>
+                 <input type="password" name="" placeholder="Password" pattern="[0-9]{5}" id="two" required>
+                 <input type="email" name="" placeholder="Email" id="four" required>
+                 <input type="tel" name="" placeholder="Mobile number" pattern="[0-9]{10}" id="five" required>
+                 <input type="text" name="" placeholder="Gender" list="gen" required>
+                 <datalist id="gen">
+                                 <option>Male</option>
+                                 <option>Female</option>
+                                 <option>Others</option>
+                </datalist>
+                 <button type="submit">Submit</button>
+         </form>
+</body>
+</html>

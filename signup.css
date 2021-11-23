@@ -1,0 +1,45 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      box-sizing: border-box;
+}
+body{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      background: url('underwater-empty-swimming-pool-background-260nw-1713567430.jpg');
+      background-size: cover;
+}
+form{
+          margin-top: 5%;
+          text-align: center;
+}
+input{
+          display: block;
+          width: 175%;
+          height: 30%;
+          margin: 5%;
+          border: none;
+          outline: none;
+         font-size: 90%;
+         border-bottom: 1px solid black;
+         background: transparent;
+        color: white;
+}
+button{
+        width: 175%;
+        height: 20%;
+        font-size: 100%;
+        background-color: blue;
+        border: none;
+        color: white;
+        margin-top: 20px;
+}
+form h1{
+       magin-bottom: 10px;
+}
+::placeholder{
+       color: black;
+}
